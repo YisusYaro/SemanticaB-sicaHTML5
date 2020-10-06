@@ -1,0 +1,167 @@
+/*0870b0 df5632 f59d20
+*/
+
+*{
+    font-family: dm sans,sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+header h1 {
+    font-size: 4rem;
+}
+
+header img{
+    width: 10%;
+}
+nav{
+    box-shadow: 14px 23px 32px -5px #f59d20;
+    text-align: right;
+    height: 5vh;
+}
+.menu{
+    width: 12vw;
+    float: right;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 2em;
+    color: #0870b0;
+}
+
+nav a:hover{
+    color: white;
+    background: #0870b0;
+}
+
+section{
+    width: 60vw;
+    margin: 2vw;
+    margin-left: 10vw;
+    float: left;
+}
+
+article{
+    color: #051626;
+    font-size: 1em;
+}
+
+article img{
+    padding-left: 13vw;
+    width: 40%;
+    height: 40%;
+}
+
+aside{
+    margin: 2vw;
+    margin-right: 6vw;
+    width: 15vw;
+    float: left;
+}
+
+aside a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #df5632;
+    
+}
+
+aside a:hover{
+    color: white;
+    background: #df5632;
+}
+
+footer{
+    float: left;
+    text-align: right;
+    background-color: #f59d20;
+    width: 98vw;
+    font-size: 1em;
+    margin: 2px;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #0870b0;
+    
+}
+
+footer a:hover{
+    color: white;
+    background: #0870b0;
+}
+
+@media only screen and (max-width: 980px)  {
+    /* For mobile phones: */
+
+
+    header{
+        height: 5vh;
+        display: flex;
+        align-items: center;
+    }
+    header h1 {
+        font-size: 2.2rem;
+
+    }
+
+    nav{
+        padding-top: 4vh;
+        box-shadow: 0px 0px 0px 0px #f59d20;
+        text-align: center;
+    }
+
+    .menu{
+        border: white 2px solid;
+        background-color: #0870b0;
+        width: 85vw;
+        float: left; 
+        margin-left: 5vw;
+
+    }
+
+    nav a{
+        text-decoration: none;
+        font-size: 1.5em;
+        color: white;
+    }
+
+    nav a:hover{
+        color: #0870b0;
+        background: white;
+    }
+
+    section{
+        margin: 2px;
+        width: 95vw;
+    }
+
+    article img{
+        padding-left: 28vw;
+    }
+    aside{
+        background-color: #0870b0;
+        margin-top: 5vh;
+        padding-bottom: 5vh;
+        margin: 2px;
+        width: 95vw;
+        float: left;
+        color: cornsilk;
+    }
+
+    footer{
+        float: left;
+        text-align: right;
+        background-color: #f59d20;
+        width: 95vw;
+        font-size: 1.2em;
+    }
+
+
+    
+
+  }
